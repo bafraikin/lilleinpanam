@@ -1,6 +1,11 @@
 class UserMailer < ApplicationMailer
     default from: 'lilleinpanam@gmail.com'
  
+    def new
+      @user = User.all
+    end
+
+
   def welcome_email
     @user = params[:user]
     @url  = 'https://w7d4.herokuapp.com/' # app heroku

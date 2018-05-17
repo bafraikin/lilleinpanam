@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'newsletter/new'
-  post 'newsletter/send', to: 'newsletter#send', as: 'send'
   get 'bouton/subscribe'
   post 'bouton/subscribe', to: "bouton#subs", as: 'subs'
   devise_for :users, controllers: {
