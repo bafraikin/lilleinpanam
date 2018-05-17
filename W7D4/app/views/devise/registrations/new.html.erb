@@ -1,6 +1,6 @@
 <h2>Sign up</h2>
 
-<%= form_for(:user, as: :user, url: send_path ) do |f| %>
+<%= form_for(@user, :user, url: new_registration_path) do |f| %>
   <%= devise_error_messages! %>
   <div class="form-group">
       <%= f.label :name %>

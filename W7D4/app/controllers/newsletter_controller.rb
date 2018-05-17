@@ -4,7 +4,7 @@ class NewsletterController < ApplicationController
   end
 
   def send
-    puts "--------2------"
+    puts '--------2------'
     @user = User.new(params[:user])
     puts "New User"
     respond_to do |format|
@@ -19,7 +19,6 @@ class NewsletterController < ApplicationController
         format.html{ render action: 'new' }
         format.json{ render json: @user.errors, status: :unprocessable_entity }
       end
-
     end
   end
 end
