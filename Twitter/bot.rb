@@ -25,14 +25,12 @@ client3 = Twitter::REST::Client.new do |config|
   config.access_token_secret = ENV['secretToken3']
 end
 
-
 client4 = Twitter::REST::Client.new do |config|
   config.consumer_key        = ENV['consuTwitter4']
   config.consumer_secret     = ENV['secretApp4']
   config.access_token        = ENV['persoToken4']
   config.access_token_secret = ENV['secretToken4']
 end
-
 
 while true
 
