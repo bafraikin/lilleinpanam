@@ -1,4 +1,3 @@
-Ici la team Lille
 
 
 ## Les Liens heroku sont ici, un peu plus bas
@@ -22,8 +21,8 @@ On a recuperé 869 mails de personnes diplomés et on a un petit programme qui l
 
 Nos deux landings pages sont
 
-* [liens des pros](https://thplille.herokuapp.com/pros)<br />
-* [liens des jeunes](https://thplille.herokuapp.com/hackers)<br />
+* [liens des pros](https://youtu.be/x6oAfPLPHYQ)<br />
+* [liens des jeunes](https://youtu.be/x6oAfPLPHYQ)<br />
 
 |Nom|Realistation|Bilan|
 |---|------------|-------|
