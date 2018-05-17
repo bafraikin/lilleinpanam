@@ -33,6 +33,5 @@ Nos 3 landings pages sont
 |Paul | Responsable frontend et coherence de l'app | Reussi |
 |Théo | 8888 | Reussi |
 
-*** TXT  ********
 
-![On s'en branle](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj1nWzfqiMLwkdmwdArMTj4C8CyzWbWtZ9lkYAQaGszjXfMvlp)
+![On s'en branle](https://i.imgur.com/lRq6T7n.gif)
