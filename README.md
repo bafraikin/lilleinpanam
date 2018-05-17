@@ -13,9 +13,9 @@ On s'est bien marré avec les branches et les commit, c'etait bien cool.
 
 Nos 3 landings pages sont
 
-* [liens des pros](https://youtu.be/x6oAfPLPHYQ) <br />
-* [liens des jeunes](https://www.youtube.com/watch?v=Eb2UECN1WXQ) <br />
-* [liens des designers](https://www.youtube.com/watch?v=elueA2rofoo) <br />
+* [liens des pros](https://w7d4.herokuapp.com/) <br />
+* [liens des jeunes](https://w7d4.herokuapp.com/lp2) <br />
+* [liens des designers](https://w7d4.herokuapp.com/lp1) <br />
 
 |Nom|Realistation|Bilan|
 |---|------------|-------|
