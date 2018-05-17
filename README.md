@@ -31,7 +31,7 @@ Nos 3 landings pages sont
 |Jordane|Newslatter | Reussi |
 |Baptiste| Tout | Evidemment que j'ai réussi|
 |Paul | Responsable frontend et coherence de l'app | Reussi |
-|Théo | 8888 | Reussi |
+|Théo | Analytics | Reussi |
 
 
 ![On s'en branle](https://i.imgur.com/lRq6T7n.gif)
