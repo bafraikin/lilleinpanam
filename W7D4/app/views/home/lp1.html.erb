@@ -1,29 +1,5 @@
-<header id="header">
-    <div class="container">
+<%= render 'layouts/navbar'%>
 
-      <div id="logo" class="pull-left">
-        <a href="#hero"></a>
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <!--<h1><a href="#hero">Regna</a></h1>-->
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="<%=root_path%>">Home</a></li>
-          <li><a href="<%=pros_path%>">Pros</a></li>
-          <li><a href="<%=lp1_path%>" class="active">Designers</a></li>
-          <li><a href="<%=hackers_path%>">Hackers</a></li>
-          <% if user_signed_in? %>
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> <%= current_user.name%></a></li>
-            <li><%= link_to(destroy_user_session_path, method: :delete)  do %> <span class="glyphicon glyphicon-log-out"></span> Sign Out<%end%></a></li>
-          <%else%>
-            <li><a href="<%=new_user_registration_path%>" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="<%=new_user_session_path%>"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          <%end%>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
 
   <!--==========================
     Hero Section
