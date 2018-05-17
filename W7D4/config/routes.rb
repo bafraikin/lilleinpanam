@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'bouton/subscribe'
+  post 'bouton/subscribe', to: "bouton#subs", as: 'subs'
   devise_for :users, controllers: {
     sessions: 'users/sessions'
   }
