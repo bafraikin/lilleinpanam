@@ -28,7 +28,8 @@ class Users::RegistrationsController < Devise::RegistrationsController
         format.html { render action: 'new' }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
-    
+
+    end
   end
 
   # GET /resource/edit
