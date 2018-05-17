@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
     sessions: 'users/sessions'
   }
-
   root to: 'home#pros'
   get '/hackers', to: 'home#hackers'
   get '/pros', to: 'home#pros'
