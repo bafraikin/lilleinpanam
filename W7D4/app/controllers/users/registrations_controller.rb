@@ -19,7 +19,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
     respond_to do |format|
       if @user.save
         # Tell the UserMailer to send a welcome email after save
-        UserMailer.with(user: @user).welcome_email.deliver_now
+      #  UserMailer.with(user: @user).welcome_email.deliver_now
         puts "Mail envoyé"
 
   
