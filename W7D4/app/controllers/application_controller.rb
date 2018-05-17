@@ -3,9 +3,9 @@ class ApplicationController < ActionController::Base
    before_action :sanitize_devise_params, only: [:create], if: :devise_controller?
 
 
-   def sanitize_devise_params
+    def sanitize_devise_params
        devise_parameter_sanitizer.permit(:sign_up, keys: [:name])
-   end
+    end
 
 
 end

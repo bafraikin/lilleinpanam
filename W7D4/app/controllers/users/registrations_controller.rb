@@ -3,15 +3,29 @@
 class Users::RegistrationsController < Devise::RegistrationsController
   # before_action :configure_sign_up_params, only: [:create]
   # before_action :configure_account_update_params, only: [:update]
-
   # GET /resource/sign_up
-  # def new
-  #   super
-  # end
+  def new
+    puts "--------1------"
+  end
 
   # POST /resource
   def create
-    
+    puts "--------2------"
+    @user = User.new(params[:user])
+    puts "New User"
+    respond_to do |format|
+      if @user.save
+        UserMailer.with(user: @user).welcome_email.deliver_now
+        # Tell the UserMailer to send a welcome email after save
+        puts "Mail envoyé"
+        format.html { redirect_to(@user, notice: 'User was successfully created.') }
+        format.json { render json: @user, status: :created, location: @user }
+        puts "sauvegarde de user"
+      else
+        format.html { render action: 'new' }
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
+    end
   end
 
   # GET /resource/edit

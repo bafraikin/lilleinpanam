@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+puts __FILE__
 class Users::PasswordsController < Devise::PasswordsController
   # GET /resource/password/new
   # def new
