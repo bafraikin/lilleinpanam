@@ -22,7 +22,7 @@ On a recuperé 869 mails de personnes diplomés et on a un petit programme qui l
 Nos 3 landings pages sont
 
 * [liens des pros](https://youtu.be/x6oAfPLPHYQ)<br />
-* [liens des jeunes](https://youtu.be/x6oAfPLPHYQ)<br />
+* [liens des jeunes](https://www.youtube.com/watch?v=Eb2UECN1WXQ)<br />
 * [liens manquant](https://www.youtube.com/watch?v=elueA2rofoo)<br />
 
 |Nom|Realistation|Bilan|
