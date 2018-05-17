@@ -19,20 +19,20 @@ On a donc 2 bot twitter. Un bot qui cible des jeunes l'autre des entrepreneurs.
 On a recuperé 869 mails de personnes diplomés et on a un petit programme qui leurs envois un mail.
 
 
-Nos deux landings pages sont
+Nos 3 landings pages sont
 
 * [liens des pros](https://youtu.be/x6oAfPLPHYQ)<br />
 * [liens des jeunes](https://youtu.be/x6oAfPLPHYQ)<br />
+* [liens manquant](https://www.youtube.com/watch?v=elueA2rofoo)<br />
 
 |Nom|Realistation|Bilan|
 |---|------------|-------|
-|Gauthier|Template et google analytics| Reussi |
-|Guillaume|Twitter et Scrapping | A ecrit la feuille et l'a roulé en boule dans son sac|
-|Baptiste|Twitter Scrapping Readme | Evidemment que j'ai réussi|
-|Pierre| Layouts et gestion heroku | Reussi |
-|Alexandro|Layouts et pere spirituel du github | Reussi |
+|Aude|Newslatter| Reussi |
+|Jordane|Newslatter | Reussi |
+|Baptiste| Tout | Evidemment que j'ai réussi|
+|Paul | Responsable frontend et coherence de l'app | Reussi |
+|Théo | 8888 | Reussi |
 
-Ca a été une journée chill en fait. 
-Meme si à pars faire chier des gens en leurs envoyant un mail ou des tweets on sait pas trop se qu'on a fait.
+*** TXT  ********
 
-![On s'en branle](https://developers.giphy.com/static/img/api.c99e353f761d.gif)
+![On s'en branle](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj1nWzfqiMLwkdmwdArMTj4C8CyzWbWtZ9lkYAQaGszjXfMvlp)
