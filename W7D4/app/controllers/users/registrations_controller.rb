@@ -6,26 +6,32 @@ class Users::RegistrationsController < Devise::RegistrationsController
 
   # GET /resource/sign_up
   def new
+    puts "--------1------"
+
+  end
+
+  # POST /resource
+  def create
+    puts "--------2------"
     @user = User.new(params[:user])
- 
+    puts "New User"
+
     respond_to do |format|
       if @user.save
         # Tell the UserMailer to send a welcome email after save
         UserMailer.with(user: @user).welcome_email.deliver_now
- 
+        puts "Mail envoyé"
+
+  
         format.html { redirect_to(@user, notice: 'User was successfully created.') }
         format.json { render json: @user, status: :created, location: @user }
+
+        puts "sauvegarde de user"
       else
         format.html { render action: 'new' }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
-      puts "coucou"
   end
-
-  # POST /resource
-  # def create
-    
-  # end
 
   # GET /resource/edit
   # def edit
