@@ -24,11 +24,12 @@ Ce travail est le fruit d'une heureuse collaboration :
 | Théo | à choisi Mixpanel pour l'analyse |   |
 
 #### Le résultat
-Il te faudrait les identifiants pour voir les résultats sur MixPanel, à la place, voici une capture d'écran (aux dernières nouvelles, 232 consultations de nos pages) : ![alt text](http://zupimages.net/viewer.php?id=18/20/0xjk.png)<br/>
+Il te faudrait les identifiants pour voir les résultats sur MixPanel, à la place, voici une capture d'écran (aux dernières nouvelles, 232 consultations de nos pages) :
+<br />
+![alt text](http://zupimages.net/viewer.php?id=18/20/0xjk.png)<br/>
 
 
 
 
 
-#### Pour le kiff :
 ![On s'en branle](https://i.imgur.com/lRq6T7n.gif)
