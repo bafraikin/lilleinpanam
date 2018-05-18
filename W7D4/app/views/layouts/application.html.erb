@@ -22,13 +22,14 @@ mixpanel.init("5c2dd5c3eb3ac998d87910fa4ee14dd6");</script>
   <body>
     <%= yield %>
 
-    <% if user_signed_in? %>
-      <% if current_user.subscribe == nil %>
+    <% if user_signed_in? && current_user.subscribe == nil %>
         <% UserMailer.with(user: current_user).welcome_email.deliver_now %>
-      <%  current_user.subscribe = false %>
-     <% end %>
+      <%  current_user.subscribe = false
+      current_user.save %>
+     <% else %>
+     <p> INSCRIT TOI </p>
     <% end %>
-    
+
     <script type="text/javascript">
       mixpanel.track("Pageview");
     </script>

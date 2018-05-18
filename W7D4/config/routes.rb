@@ -5,7 +5,6 @@ Rails.application.routes.draw do
     sessions: 'users/sessions'
   }
 
->>>>>>> oudou
   root to: 'home#pros'
   get '/hackers', to: 'home#hackers'
   get '/pros', to: 'home#pros'

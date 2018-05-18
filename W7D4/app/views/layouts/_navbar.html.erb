@@ -19,6 +19,14 @@
             <li><a href="<%=new_user_registration_path%>" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
             <li><a href="<%=new_user_session_path%>"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           <%end%>
+          <li>
+          <% if user_signed_in? && current_user.subscribe != true %>
+            <%= button_to "subscribe", subs_path %>
+            
+            <% else %>
+            <%= button_to "Unsubscribe", subs_path  %>
+          <% end %>
+          <li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>

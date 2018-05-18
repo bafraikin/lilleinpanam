@@ -1,9 +1,1 @@
 
-
-<% if user_signed_in? %>
-  <% if current_user.subscribe != true %>
-  <%= button_to "subscribe", subs_path  %>
-  <% else %>
-  <%= button_to "Unsubscribe", subs_path  %>
-  <% end %>
-<% end %>
