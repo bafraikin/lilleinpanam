@@ -4,9 +4,9 @@ En prod : http://w7d4.herokuapp.com/
 
 #### Le projet :
 Lorsqu'une personne tweet avec "@parcoursup" ou "start-up", notre bot commente son tweet : "Peut etre que t'aurais envie de t'initier au code gratuitement et en groupe, pendant les vacances, c'est ici -> <br />
-* [liens 1](https://thplille.herokuapp.com/hackers)".<br/>
-* [liens 2](https://thplille.herokuapp.com/lp2)".<br/>
-* [liens 3](https://thplille.herokuapp.com/lp1)".<br/>
+* [liens 1](https://w7d4.herokuapp.com/)<br/>
+* [liens 2](https://w7d4.herokuapp.com/lp2)<br/>
+* [liens 3](https://w7d4.herokuapp.com/lp1)<br/>
 Une fois sur notre site, il peut consulter nos 3 LP (qui ciblent respectivement entrepreneurs, designers, étudiants). Il peut s'inscrire à la newsletter, qui lui enverra automatiquement un e-mail. Il a également la possibilité de se "unsuscribe" pour ne plus recevoir d'email hebdomadaire, lancé par Heroku Schedular.<br/>
 
 #### L'équipe
