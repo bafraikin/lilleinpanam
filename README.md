@@ -26,7 +26,9 @@ Ce travail est le fruit d'une heureuse collaboration :
 #### Le résultat
 Il te faudrait les identifiants pour voir les résultats sur MixPanel, à la place, voici une capture d'écran (aux dernières nouvelles, 232 consultations de nos pages) :
 <br />
-![alt text](http://zupimages.net/viewer.php?id=18/20/0xjk.png)<br/>
+
+![alt text](http://zupimages.net/viewer.php?id=18/20/0xjk.png)
+<br/>
 
 
 
