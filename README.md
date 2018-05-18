@@ -1,37 +1,34 @@
+#### Tuto :
+En dev : git init, git clone, bundle install --without production, rails db:migrate ... comme d'hab quoi<br/>
+En prod : http://w7d4.herokuapp.com/ 
+
+#### Le projet :
+Lorsqu'une personne tweet avec "@parcoursup" ou "start-up", notre bot commente son tweet : "Peut etre que t'aurais envie de t'initier au code gratuitement et en groupe, pendant les vacances, c'est ici -> <br />
+* [liens 1](https://w7d4.herokuapp.com/)<br/>
+* [liens 2](https://w7d4.herokuapp.com/lp2)<br/>
+* [liens 3](https://w7d4.herokuapp.com/lp1)<br/>
+Une fois sur notre site, il peut consulter nos 3 LP (qui ciblent respectivement entrepreneurs, designers, étudiants). Il peut s'inscrire à la newsletter, qui lui enverra automatiquement un e-mail. Il a également la possibilité de se "unsuscribe" pour ne plus recevoir d'email hebdomadaire, lancé par Heroku Schedular.<br/>
+
+#### L'équipe
+Ce travail est le fruit d'une heureuse collaboration :
+
+| Nom | Role | Resultat  |
+|------|-------|----|
+| Aude | Tryhardeuse de la newslatter | à tenu 4 h sur un bug infame! |
+| Jordane | Tryhardeuse de le newlatter et Scheduler | Medaille de la perseverance et reussi |
+| Paul | Landing page et soutien moral, hote et serveur de café | Haut la main |
+| Baptiste |   |   |
+| Melec | Landing page | Reussi |
+| Théo | à choisi Mixpanel pour l'analyse | Reussi |
+
+#### Le résultat
+Il te faudrait les identifiants pour voir les résultats sur MixPanel, à la place, voici une capture d'écran (aux dernières nouvelles, 232 consultations de nos pages) :
+<br />
+http://zupimages.net/viewer.php?id=18/20/0xjk.png
+<br/>
 
 
-## Les Liens heroku sont ici, un peu plus bas
 
-C'etait un projet assez vaste.
-On a commencé par mettre tout sur une page blanche.
-
-Ça a du nous prendre bien une heure pour repartir toutes les taches.
-Sachez pour la petite histoire, qu'apres on en a plus eu quelque chose à foutre de cette petite feuille. 
-
-Perso je l'ai plus revue, elle doit etre roulée en boule au fond du sac de Guillaume.
-
-Bref une fois cette masterpiece achevé on a tous commencé nos taches.
-Une team qui part faire du scrapping et des bots tweeter pour faire de l'aquisition.
-
-L'autre qui fait l'app rails qui comporte 2 landings pages, une pour des profils jeunes et l'autre pour des profils plus matures et eduqués ( type: a déjà fais des etudes ).
-
-On a donc 2 bot twitter. Un bot qui cible des jeunes l'autre des entrepreneurs.
-On a recuperé 869 mails de personnes diplomés et on a un petit programme qui leurs envois un mail.
-
-
-Nos 3 landings pages sont
-
-* [liens des pros](https://youtu.be/x6oAfPLPHYQ)<br />
-* [liens des jeunes](https://www.youtube.com/watch?v=Eb2UECN1WXQ)<br />
-* [liens manquant](https://www.youtube.com/watch?v=elueA2rofoo)<br />
-
-|Nom|Realistation|Bilan|
-|---|------------|-------|
-|Aude|Newslatter| Reussi |
-|Jordane|Newslatter | Reussi |
-|Baptiste| Tout | Evidemment que j'ai réussi|
-|Paul | Responsable frontend et coherence de l'app | Reussi |
-|Théo | Analytics | Reussi |
 
 
 ![On s'en branle](https://i.imgur.com/lRq6T7n.gif)
